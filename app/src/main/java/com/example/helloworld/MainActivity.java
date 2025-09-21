@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         btnChangeColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvMessage.setTextColor(Color.RED);
+                tvMessage.setTextColor(android.graphics.Color.BLUE);
             }
         });
 

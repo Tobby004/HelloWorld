@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnChangeText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvMessage.setText("Hello from Button 1!");
+                tvMessage.setText("Text changed: Hello from Button 1!");
             }
         });
         Button btnChangeColor = findViewById(R.id.btnChangeColor);

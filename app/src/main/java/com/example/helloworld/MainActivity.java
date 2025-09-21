@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 tvMessage.setTextColor(android.graphics.Color.BLUE);
             }
         });
-
+   // Main change
+   // Main change
     }
 }

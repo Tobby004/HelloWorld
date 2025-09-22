@@ -35,17 +35,17 @@ public class MainActivity extends AppCompatActivity {
         btnChangeText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvMessage.setText("Text changed: Hello from Button 1!");
+                tvMessage.setText("Hello from Button 1!");
             }
         });
         Button btnChangeColor = findViewById(R.id.btnChangeColor);
         btnChangeColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvMessage.setTextColor(android.graphics.Color.BLUE);
+                tvMessage.setTextColor(Color.RED);
             }
         });
-   // Main change
-   // Main change
+
+
     }
 }

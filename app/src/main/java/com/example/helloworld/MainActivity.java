@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 tvMessage.setTextColor(Color.RED);
             }
         });
+
+        // code for revert
         Button btnChangeBg = findViewById(R.id.btnChangeBg);
         btnChangeBg.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -45,6 +45,15 @@ public class MainActivity extends AppCompatActivity {
                 tvMessage.setTextColor(Color.RED);
             }
         });
+        Button btnChangeBg = findViewById(R.id.btnChangeBg);
+        btnChangeBg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Change background color of root layout
+                findViewById(R.id.main).setBackgroundColor(android.graphics.Color.YELLOW);
+            }
+        });
+
 
 
     }
